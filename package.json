@@ -1,0 +1,34 @@
+{
+  "name": "real-state_mvc",
+  "version": "1.0.0",
+  "description": "real state project",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node main.js",
+    "server": "nodemon main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gaerste/real-state_mvc.git"
+  },
+  "keywords": [
+    "MVC",
+    "pug",
+    "Tailwind",
+    "MySQL",
+    "Sequelize"
+  ],
+  "author": "Alejandro Gaerste",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Gaerste/real-state_mvc/issues"
+  },
+  "homepage": "https://github.com/Gaerste/real-state_mvc#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
